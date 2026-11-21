@@ -1,0 +1,39 @@
+id = "world_atlas"
+kind = "mod"
+name = "World Atlas"
+summary = "Minimap, world map with cave and Nether layers, entity radar and waypoints with beams."
+description = """
+A minimap and a full-screen world map of everything you have explored, with waypoints you can see from afar.
+
+- **Minimap:** square or round, north up or turning with you, in any corner. It shows terrain shading, waypoints, mob faces and structure markers. [ and ] zoom it; hold Z to enlarge it.
+- **World map (M):** drag, zoom about the cursor, and switch between the surface, cave layers and the Nether's roof. The bottom line shows the biome and the matching Nether/Overworld position.
+- **Waypoints (J):** name, exact X Y Z, colour and icon. Each can have a light beam you can see from far away with a fade distance, and can be temporary. You can search, track, share or link them through portals. Your last three deaths are kept as waypoints.
+- **Compass bar** (optional) at the top of the screen, with your waypoints at their bearings.
+- **Overlays from the seed:** chunk grid, slime chunks and structures.
+- **PNG export** of the explored map.
+
+Client-side, API only: no injections and no native code. It sees what your client is shown, nothing more.
+Its source and a picture tour are at [publicusr/atlas](https://github.com/publicusr/atlas).
+"""
+authors = ["publicusr"]
+owners = ["publicusr"]
+owner_ids = [153654164]
+license = "MIT"
+source = "https://github.com/publicusr/atlas"
+icon = "icons/world_atlas.png"
+categories = ["utility"]
+tags = ["minimap", "map", "waypoints", "radar", "hud"]
+key = "RWSfrB+LO6RDWGlNVn/SbXBUNTz97GFJ4RZbLLTyv/vo0HdDUBPQVchP"
+
+[[versions]]
+version = "0.4.1"
+published = "2026-11-21"
+game = "26.3"
+file = "world_atlas-0.4.1.hmod"
+sha256 = "67418dede45bed64a8284e9a04011fff43f6bc6b1ba74a89716c8f385ddfe158"
+signature = """
+untrusted comment: signature from minisign secret key
+RUSfrB+LO6RDWPLwgnAdBI2QqAIvaLCJLg/DDMA0tP3a+++6zD04DSPBFmSqso58TM9cVBcrr50ZZXCxa/rm93xXX551GD7ZLw0=
+trusted comment: timestamp:1795280124	file:world_atlas-0.4.1.hmod	hashed
+nmLZ6VefhzJbVocE2+iTgEPeJDdB/RoY3n80S6N6YXW2ppFIF0r7euSfLZuPHoJtIFqFFYxRPbIL9mUTr02hBQ=="""
+changelog = "First version in the registry, as World Atlas (it was Atlas, id atlas, up to 0.4.0 on GitHub). Built for Nightly 2026-11-20 (0a875da)."
