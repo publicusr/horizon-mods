@@ -1,0 +1,4 @@
+{
+  "coords_hud.setting.shown": "Shown",
+  "coords_hud.setting.shown.tooltip": "Whether the box with your coordinates and facing shows in the top left. /coords switches it too. It gives way to the debug screen (F3)."
+}

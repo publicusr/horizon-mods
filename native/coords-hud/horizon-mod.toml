@@ -1,0 +1,14 @@
+id = "coords_hud"
+name = "Coordinates HUD"
+version = "3.0.0"
+description = "Your coordinates and facing in a corner of the screen. /where puts them in chat, /coords hides or shows the box."
+authors = ["Horizon"]
+license = "MIT"
+homepage = "https://github.com/horizon-rust/horizon-mods/tree/main/native/coords-hud"
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+
+[wasm]
+sha512 = "b33342fd141ed66304f1cba4f6c51099839ef3bfb66938d89924a0a6c950f46b7a8c4c000fa4c48c53117d9373dc89a7174a7529235d6ff418a659b5fd8e2e8b"
+toolchain = "1.99.1 58cf8f9c35b355199727627d07ae34a4e2846d67"

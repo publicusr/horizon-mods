@@ -1,0 +1,33 @@
+id = "coords_hud"
+kind = "mod"
+name = "Coordinates HUD"
+summary = "Your coordinates and facing in a corner of the screen."
+description = """
+Your block position and the direction you face in the top-left corner of the screen.
+
+- `/where` puts your coordinates and dimension in chat.
+- `/coords` hides or shows the box, and the game keeps your choice.
+- Settings: Options > Mods > Coordinates HUD > Config (shown).
+
+It reads the player's position, draws on the HUD and writes to chat: nothing else.
+
+Now a WebAssembly mod (3.0.0): install it on the launcher's Mods page, with nothing to build. Your choice carries over
+from earlier versions. Its source is
+[horizon-mods/native/coords-hud](https://github.com/horizon-rust/horizon-mods/tree/main/native/coords-hud).
+"""
+authors = ["Horizon"]
+owners = ["horizon-rust"]
+owner_ids = [349008135]
+license = "MIT"
+source = "https://github.com/horizon-rust/horizon-mods/tree/main/native/coords-hud"
+icon = "icons/coords_hud.png"
+categories = ["utility"]
+tags = ["coordinates", "hud", "position"]
+
+[[versions]]
+version = "3.0.0"
+published = "2026-11-21"
+game = "26.3"
+file = "coords_hud-3.0.0.hmod"
+sha256 = "9ea6c123f2cbb1f461c884d8dcc50dc9efd50bb885844b7ea3bd19a705384055"
+changelog = "WebAssembly mod on the new mod SDK: no build needed; same box, lines, /where and /coords, and the same settings file; the Shown setting is on the Config page, and the chat box completes /where and /coords. Gives way to the debug screen (F3) as 2.0.0 did. Built on the 0a875da SDK."
